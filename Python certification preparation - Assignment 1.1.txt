@@ -1,0 +1,108 @@
+Q1
+What are Data Types?
+A data type is a set of values and a set of operations defined on data. An implementation of a data type is an expression of data and operations in terms of a specific programming language such as Java, C ++, or Python.
+
+Q2
+Name four of the main data types in Python
+Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data. Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte strings in Python 3 are the types of string data types.
+
+Q3
+What does immutable mean and what three types of Python core data types are considered immutable?
+An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+Q4
+What does mapping mean and what kind of data type is based on mapping?
+The term mapping refers to an object that maps keys to associated values. The Python dictionary is the only type of mapping in the base typeset. Mappings do not maintain any left-to-right position order; they support access to stored data by key, as well as type-specific method calls.
+
+Q5
+What does sequence mean and which three types of data fall into this category?
+A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are the data types based on sequences. The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+Q6
+What are the different types of operators in Python?
+Python uses a rich set of operators to perform a variety of operations. Some individual operators like membership and identity operators are not so familiar but allow to perform operations.
+a) Arithmetic Operators
+b) Relational Operators
+c) Assignment Operators
+d) Logical Operators
+e) Membership Operators
+f) Identity Operators
+g) Bitwise Operators
+
+Q7
+What are Arithmetic Operators? What are various types of arithmetic operators that we can use in Python?
+Arithmetic operators are used to performing mathematical functions such as addition, subtraction, division, and multiplication. Various types of Arithmetic operators that we can use in Python
+
+Q8
+What is the Arithmetic operator’s precedence in Python?
+When more than one arithmetic operator appears in an expression the operations will execute in a specific order. In Python, the operation precedence follows as per the acronym PEMDAS.
+a) Parenthesis
+b) Exponent
+c) Multiplication
+d) Division
+e) Addition
+f) Subtraction
+
+Q9
+What are relational operators?
+Relational operators are also known as conditional or comparison operators. Relational operators in Python are defined as follows:
+==: returns true if two operands are equal
+!=: returns true if two operands are not equal
+>: returns true if the left operand is greater than the right operand
+<: returns true if the left operand is smaller than the right operand
+>=: returns true if the left operand is greater than or equal to the right operand
+<=: returns true if the left operand is smaller or equal to the right operand
+
+Q10
+What are logical operators?
+Logical operators are generally used in control statements like if and while. They are used to control program flow. The logical operator evaluates a condition and returns “True” or “False” depending on whether the condition evaluates to True or False. Three logical operators in Python are as follows:
+‘and’
+‘or’ and
+‘not’
+
+Q11
+What is pass in Python?
+Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there.
+
+Q12
+What Does The Continue Do In Python? 
+The continue is a jump statement in Python which moves the control to execute the next iteration in a loop leaving all the remaining instructions in the block unexecuted.
+The continue statement is applicable for both the “while” and “for” loops.
+
+Q13
+When Should You Use The “Break” In Python? 
+Python provides a break statement to exit from a loop. Whenever the break hits in the code, the control of the program immediately exits from the body of the loop.
+The break statement in a nested loop causes the control to exit from the inner iterative block.
+
+Q14
+What Is The Difference Between Pass And Continue In Python? 
+The continue statement makes the loop to resume from the next iteration.
+On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
+
+Q15
+What is conditional statements and how they work?
+The conditional statements are workde on boolean like True and False, when the condition is satisfied then the true will come, by reciveing True it fallows or print the inputs
+
+Q16
+What Is A Function In Python Programming?
+ A function is an object which represents a block of code and is a reusable entity. It brings modularity to a program and a higher degree of code reusability.
+Python has given us many built-in functions such as print() and provides the ability to create user-defined functions.
+
+Q17
+What is *args and **kwargs?
+*args is used when the programmer is not sure about how many arguments are going to be passed to a function, or if the programmer is expecting a list or a tuple as argument to the function.
+**kwargs is used when a dictionary (keyword arguments) is expected as an argument to the function.
+
+Q18
+What is lambda in Python?
+anonymous function means that a function is without a name. As we already know that def keyword is used to define the normal functions and the lambda keyword is used to create anonymous functions.
+     lambda arguments: expression
+
+Q19
+Mention what are the rules for local and global variables in Python?
+Local variables: If a variable is assigned a new value anywhere within the function's body, it's assumed to be local.
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+Q20
+Is It Mandatory For A Python Function To Return A Value? 
+It is not at all necessary for a function to return any value. However, if needed, we can use None as a return value.
